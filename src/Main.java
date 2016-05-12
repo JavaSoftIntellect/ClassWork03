@@ -5,19 +5,19 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner in = new Scanner (System.in);
 		
-		System.out.println("Въведете число:");
+		System.out.println("Enter number:");
 		int a = in.nextInt();
 		
 		if(a<0 && a%2 ==0){
-			System.out.println("Числото е отрицателно и четно.");
+			System.out.println("Negative and even.");
 			}else if(a<0 && a%2 ==1){
-				System.out.println("Числото е отрицателно и нечетно.");
+				System.out.println("Negative and odd.");
 				}else if(a>0 && a%2 ==0){
-					System.out.println("Числото е положително и четно.");
+					System.out.println("Positive and even.");
 				}else if(a>0 && a%2 ==1){
-					System.out.println("Числото е положително и нечетно.");
+					System.out.println("Positive and odd.");
 					}else{
-						System.out.println("Нула.");
+						System.out.println("Null.");
 					}
 
 	}
